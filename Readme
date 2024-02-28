@@ -1,0 +1,12 @@
+How to run
+
+
+1. Copy the Main.cc file in the Scratch folder of NS-3.
+2. open terminal
+3. go to ~/ns-allinone-3.40/ns-3.40 directory
+4. run the command "./ns3 run "scratch/Main --prot=TcpHighSpeed --for_loop=40 --simultaneously=0 --offset=2 --run_time=1 --packetsize=1024"
+(Change the parameters as per requirements)
+
+5. a .plt file will be generated.
+6. run gnuplot x.plt
+7. a .pdf file with graph will be generated
